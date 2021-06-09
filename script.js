@@ -8,7 +8,7 @@ function stopCreateBalloon() {
 function gameOver() {
   let allBalloons = document.querySelectorAll('div.balloon')
 
-  if (allBalloons.length === 10) {
+  if (allBalloons.length === 100) {
     allBalloons.forEach((item, i) => {
       document.body.removeChild(item);
     })
