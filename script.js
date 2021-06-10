@@ -1,5 +1,5 @@
 var total = 0;
-var interval = setInterval(createBalloon, 300)
+var interval = setInterval(createBalloon, 900)
 
 function stopCreateBalloon() {
   clearInterval(interval);
